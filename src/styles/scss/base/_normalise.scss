@@ -1,5 +1,20 @@
 #reactRoot {
+  overflow-x: hidden;
+  background-color: $bg-color;
+}
+
+.massiveComponent {
+  &_container {
+    &--color1 {
+      background-color: $component-color;
+    }
+  }
+  &_limitation {
+    max-width: $general-max-w;
     margin: 0 auto;
-    max-width: 1280px;
-    overflow-x: hidden;
+  }
+}
+
+header {
+  color: $bg-color;
 }

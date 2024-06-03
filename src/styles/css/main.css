@@ -2,13 +2,24 @@
 @import "tailwindcss/components.css";
 @import "tailwindcss/utilities.css";
 #reactRoot {
-  margin: 0 auto;
-  max-width: 1280px;
   overflow-x: hidden;
+  background-color: #f0ebeb;
 }
 
-.welcome-container {
-  background-color: red;
+.massiveComponent_container--color1 {
+  background-color: #3e32aa;
+}
+.massiveComponent_limitation {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+header {
+  color: #f0ebeb;
+}
+
+.landingComponent {
+  color: #f0ebeb;
 }
 
 /*# sourceMappingURL=main.css.map */
