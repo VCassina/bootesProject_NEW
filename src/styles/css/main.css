@@ -3,23 +3,49 @@
 @import "tailwindcss/utilities.css";
 #reactRoot {
   overflow-x: hidden;
-  background-color: #f0ebeb;
+  background-color: transparent;
 }
 
-.massiveComponent_container--color1 {
-  background-color: #3e32aa;
+.massiveComponent_container {
+  max-height: 100vh;
+  padding: 1em;
 }
 .massiveComponent_limitation {
   max-width: 1620px;
   margin: 0 auto;
 }
 
-header {
-  color: #f0ebeb;
+h1 {
+  color: #C6FE5B;
+  font-size: x-large !important;
 }
 
 .landingComponent {
-  color: #f0ebeb;
+  color: #F3F3F3;
+}
+.landingComponent_svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  overflow: visible;
+  z-index: -1;
+}
+
+.titlePromesse {
+  bottom: 10%;
+}
+
+header {
+  color: #F3F3F3;
+}
+
+.contactButton {
+  background-color: #F3F3F3;
+  padding: 1em;
+  border-radius: 100%;
+  color: #6535FE;
 }
 
 /*# sourceMappingURL=main.css.map */

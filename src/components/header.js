@@ -1,15 +1,19 @@
 import React from "react";
+import logo from "../media/logoLandingWireframe.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
-    <header className="items-center massiveComponent_container--color1">
-      <section className="massiveComponent_limitation flex h-10 ">
-        <img src="" alt="LOGO BOOTES DEV" className="basis-1/3" />
-        <nav className=" w-full">
-          <ul className="flex justify-evenly">
+    <header className="items-center massiveComponent_container">
+      <section className="massiveComponent_limitation flex justify-between items-center w-full">
+        <img src={logo} alt="LOGO BOOTES DEV" className="h-16" />
+      
+        <nav className="basis-3/5">
+          <ul className="flex justify-evenly items-center">
             <li>
               <a href="...">
-                <p>HOME</p>
+              <FontAwesomeIcon icon={faHouse} />
               </a>
             </li>
             <li>
@@ -29,7 +33,7 @@ function Header() {
             </li>
             <li>
               <a href="...">
-                <p>Contacts</p>
+                <p className="contactButton">Contacts</p>
               </a>
             </li>
           </ul>

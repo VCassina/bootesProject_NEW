@@ -1,4 +1,16 @@
 .landingComponent {
     color: $bg-color;
+    &_svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: auto;
+      width: 100%;
+      overflow: visible;
+      z-index: -1;
+    }
   }
 
+.titlePromesse {
+  bottom: 10%;
+}

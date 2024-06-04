@@ -1,20 +1,28 @@
 #reactRoot {
   overflow-x: hidden;
-  background-color: $bg-color;
+  background-color: transparent;
 }
 
 .massiveComponent {
   &_container {
-    &--color1 {
-      background-color: $component-color;
-    }
+    max-height: 100vh;
+    padding: 1em;
+    // &--color1 {
+    //   background-color: $component-color;
+    // }
   }
+
   &_limitation {
     max-width: $general-max-w;
     margin: 0 auto;
   }
+
+  // &_shadow {
+  //   box-shadow: 0px 10px 10px -5px black;
+  // }
 }
 
-header {
-  color: $bg-color;
+h1 {
+  color: $title-color;
+  font-size: x-large !important;
 }
